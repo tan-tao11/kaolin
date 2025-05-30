@@ -21,7 +21,7 @@ from kaolin import helpers
 from kaolin import mathutils
 from kaolin import rep
 from kaolin import vision
-from kaolin import visualize
+# from kaolin import visualize
 from kaolin import metrics
 from kaolin import models
 from kaolin import transforms

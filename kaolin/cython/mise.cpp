@@ -12011,7 +12011,7 @@ static int __Pyx_modinit_type_init_code(void) {
   __pyx_vtable_6kaolin_4mise_MISE.add_grid_point = (void (*)(struct __pyx_obj_6kaolin_4mise_MISE *, struct __pyx_t_6kaolin_4mise_Vector3D))__pyx_f_6kaolin_4mise_4MISE_add_grid_point;
   __pyx_vtable_6kaolin_4mise_MISE.get_grid_point_idx = (int (*)(struct __pyx_obj_6kaolin_4mise_MISE *, struct __pyx_t_6kaolin_4mise_Vector3D))__pyx_f_6kaolin_4mise_4MISE_get_grid_point_idx;
   if (PyType_Ready(&__pyx_type_6kaolin_4mise_MISE) < 0) __PYX_ERR(0, 58, __pyx_L1_error)
-  __pyx_type_6kaolin_4mise_MISE.tp_print = 0;
+  // __pyx_type_6kaolin_4mise_MISE.tp_print = 0;
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_6kaolin_4mise_MISE.tp_dictoffset && __pyx_type_6kaolin_4mise_MISE.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_6kaolin_4mise_MISE.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
@@ -12022,12 +12022,12 @@ static int __Pyx_modinit_type_init_code(void) {
   __pyx_vtabptr_array = &__pyx_vtable_array;
   __pyx_vtable_array.get_memview = (PyObject *(*)(struct __pyx_array_obj *))__pyx_array_get_memview;
   if (PyType_Ready(&__pyx_type___pyx_array) < 0) __PYX_ERR(1, 104, __pyx_L1_error)
-  __pyx_type___pyx_array.tp_print = 0;
+  // __pyx_type___pyx_array.tp_print = 0;
   if (__Pyx_SetVtable(__pyx_type___pyx_array.tp_dict, __pyx_vtabptr_array) < 0) __PYX_ERR(1, 104, __pyx_L1_error)
   if (__Pyx_setup_reduce((PyObject*)&__pyx_type___pyx_array) < 0) __PYX_ERR(1, 104, __pyx_L1_error)
   __pyx_array_type = &__pyx_type___pyx_array;
   if (PyType_Ready(&__pyx_type___pyx_MemviewEnum) < 0) __PYX_ERR(1, 278, __pyx_L1_error)
-  __pyx_type___pyx_MemviewEnum.tp_print = 0;
+  // __pyx_type___pyx_MemviewEnum.tp_print = 0;
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type___pyx_MemviewEnum.tp_dictoffset && __pyx_type___pyx_MemviewEnum.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type___pyx_MemviewEnum.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
@@ -12042,7 +12042,7 @@ static int __Pyx_modinit_type_init_code(void) {
   __pyx_vtable_memoryview.convert_item_to_object = (PyObject *(*)(struct __pyx_memoryview_obj *, char *))__pyx_memoryview_convert_item_to_object;
   __pyx_vtable_memoryview.assign_item_from_object = (PyObject *(*)(struct __pyx_memoryview_obj *, char *, PyObject *))__pyx_memoryview_assign_item_from_object;
   if (PyType_Ready(&__pyx_type___pyx_memoryview) < 0) __PYX_ERR(1, 329, __pyx_L1_error)
-  __pyx_type___pyx_memoryview.tp_print = 0;
+  // __pyx_type___pyx_memoryview.tp_print = 0;
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type___pyx_memoryview.tp_dictoffset && __pyx_type___pyx_memoryview.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type___pyx_memoryview.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
@@ -12055,7 +12055,6 @@ static int __Pyx_modinit_type_init_code(void) {
   __pyx_vtable__memoryviewslice.__pyx_base.assign_item_from_object = (PyObject *(*)(struct __pyx_memoryview_obj *, char *, PyObject *))__pyx_memoryviewslice_assign_item_from_object;
   __pyx_type___pyx_memoryviewslice.tp_base = __pyx_memoryview_type;
   if (PyType_Ready(&__pyx_type___pyx_memoryviewslice) < 0) __PYX_ERR(1, 960, __pyx_L1_error)
-  __pyx_type___pyx_memoryviewslice.tp_print = 0;
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type___pyx_memoryviewslice.tp_dictoffset && __pyx_type___pyx_memoryviewslice.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type___pyx_memoryviewslice.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
